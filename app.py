@@ -2,7 +2,7 @@ from flask import Flask
 from redis import Redis
 from mongoengine import connect
 
-connect('project1', host='mongo')
+connect('project1', host='mongodb://mongo')
  
 
 app = Flask(__name__)
